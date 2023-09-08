@@ -2,15 +2,8 @@
 User can signup new account, or login with username & password.
 By User’s role (admin, developer, user), we authorize the User to access resources.
 These are APIs that we need to provide:
+![Screenshot (58)](https://github.com/alkaonly07/Spring-Boot-Login-and-SignUp-with-JWT-and-H2-Database/assets/107641479/fdc6f0c0-5a86-425d-9d28-87c6c20f751a)
 
-Methods	       Urls	                     Actions
-POST	        /api/auth/signup	       signup new account
-POST	        /api/auth/signin	       login an account
-POST	        /api/auth/signout	       logout the account
-GET	          /api/hello/all	         retrieve public content
-GET	          /api/hello/user	         access User’s content
-GET	          /api/hello/dev	         access Developer’s content
-GET	          /api/hello/admin	       access Admin’s content
 
 Technology
 - Java 17 / 11 / 8
